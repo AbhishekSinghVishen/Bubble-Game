@@ -5,10 +5,11 @@ function increaseScore(){
     score+=10;
     document.querySelector("#scoreval").textContent = score;
 }
-function getNewHit(){
-    hitrn= Math.floor(Math.random()*10);
-    document.querySelector("#hitval").textContent=hitrn;
-}
+// function getNewHit(){
+//     hitrn= Math.floor(Math.random()*10);
+//     document.querySelector("#hitval").textContent=hitrn;
+// }
+// mjkylklj
 
 function makeBubble(){
     var clutter="";
